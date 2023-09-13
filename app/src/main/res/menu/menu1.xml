@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/uno"
+        android:icon="@drawable/baseline_add_ic_call_24"
+        app:showAsAction="ifRoom"
+        android:title="uno"
+        />
+
+    <item android:id="@+id/dos"
+        android:icon="@drawable/baseline_camera_alt_24"
+        app:showAsAction="ifRoom"
+        android:title="dos"
+        />
+
+    <item android:id="@+id/tres"
+        android:icon="@color/black"
+        app:showAsAction="never"
+        android:title="Ajustes"
+        />
+
+    <item android:id="@+id/cuatro"
+        android:icon="@color/black"
+        app:showAsAction="never"
+        android:title="Perfil"
+        />
+    <item android:id="@+id/cinco"
+    android:icon="@color/black"
+    app:showAsAction="never"
+    android:title="Salir"
+    />
+    <item android:id="@+id/seis"
+    android:icon="@color/black"
+    app:showAsAction="never"
+    android:title="Opciones de Histoira"
+    />
+
+</menu>
